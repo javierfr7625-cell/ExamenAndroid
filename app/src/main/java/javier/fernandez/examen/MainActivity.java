@@ -5,6 +5,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -83,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             TextView txtNombre = fila.findViewById(R.id.txtNombreFila);
             TextView txtDetalle = fila.findViewById(R.id.txtDetalleFila);
             TextView txtCoste = fila.findViewById(R.id.txtCosteFila);
+            Button btnEliminar = fila.findViewById(R.id.btnEliminarFila);
 
             txtNombre.setText(item.getNombrePlan());
             txtDetalle.setText(getString(
@@ -93,6 +95,12 @@ public class MainActivity extends AppCompatActivity {
                     item.getPorcentajeRecargo()
             ));
             txtCoste.setText(getString(R.string.formato_coste_total, item.getCosteTotal()));
+
+            btnEliminar.setOnClickListener(v -> {
+                listaPresupuestos.remove(item);
+                mostrarElementos();
+                Toast.makeText(MainActivity.this, R.string.msg_eliminado, Toast.LENGTH_SHORT).show();
+            });
 
             binding.contentMain.contenedorMain.addView(fila);
         }

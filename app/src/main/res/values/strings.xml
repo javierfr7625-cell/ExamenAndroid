@@ -15,6 +15,8 @@
     <string name="error_categoria">Selecciona una categoría válida</string>
     <string name="error_valores_invalidos">Introduce un coste mayor que 0 y una cantidad mínima de 1</string>
     <string name="msg_cancelado">Operación cancelada</string>
+    <string name="msg_eliminado">Presupuesto eliminado</string>
+    <string name="btn_eliminar">Eliminar</string>
     <string name="fab_agregar_desc">Añadir nuevo presupuesto</string>
     <string name="formato_coste_total">Total: %1$.2f €</string>
     <string name="formato_detalle_fila">%1$s · %2$d x %3$.2f € (+%4$.0f%%)</string>
