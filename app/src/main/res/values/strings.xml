@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Calculadora de Presupuestos</string>
+    <string name="titulo_crear_presupuesto">Nuevo presupuesto</string>
+    <string name="hint_nombre_plan">Nombre del plan (ej. Escapada)</string>
+    <string name="hint_coste_base">Coste base por unidad (€)</string>
+    <string name="hint_cantidad">Cantidad / Personas</string>
+    <string name="label_categoria">Categoría del gasto</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="preview_coste_inicial">Total estimado: 0,00 €</string>
+    <string name="preview_coste_formato">Total estimado: %1$.2f € (recargo %2$.0f%%)</string>
+    <string name="resumen_formato">Planes: %1$d  |  Presupuesto total: %2$.2f €</string>
+    <string name="estado_vacio">No hay presupuestos guardados.\nPulsa el botón + para añadir el primero.</string>
+    <string name="error_campos_vacios">Rellena todos los campos</string>
+    <string name="error_categoria">Selecciona una categoría válida</string>
+    <string name="error_valores_invalidos">Introduce un coste mayor que 0 y una cantidad mínima de 1</string>
+    <string name="msg_cancelado">Operación cancelada</string>
+    <string name="fab_agregar_desc">Añadir nuevo presupuesto</string>
+    <string name="formato_coste_total">Total: %1$.2f €</string>
+    <string name="formato_detalle_fila">%1$s · %2$d x %3$.2f € (+%4$.0f%%)</string>
+
+    <string-array name="categorias_presupuesto">
+        <item>Selecciona una categoría</item>
+        <item>Ocio (0% recargo)</item>
+        <item>Alimentación (+10% IVA)</item>
+        <item>Viaje (+15% tasa)</item>
+        <item>Tecnología (+21% IVA)</item>
+        <item>Hogar (+21% IVA)</item>
+    </string-array>
+</resources>
