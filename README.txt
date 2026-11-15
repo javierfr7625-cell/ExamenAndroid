@@ -1,6 +1,6 @@
 NOMBRE DE LA APLICACIÓN Y AUTORES
 - Aplicación: Calculadora de Presupuestos
-- Autores: Javier Fernández
+- Autores: Javier Fernández Ramos y Iván Herranz Rizo
 
 QUÉ PERMITE HACER Y CÓMO SE UTILIZA
 La aplicación permite calcular el coste total de distintos planes o gastos y guardar un listado de los resultados durante la sesión, mostrando además el número total de planes y el presupuesto acumulado.
